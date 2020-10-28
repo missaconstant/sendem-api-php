@@ -16,7 +16,7 @@ This method returns an array as answer
 
 ```php
 // initialization
-$api    = new SENDEM\SMSApi( $username, $password );
+$api = new SENDEM\SMSApi( $username, $password );
 
 // sending query
 $answer = $api->send([
@@ -38,7 +38,7 @@ This method returns an array as answer
 
 ```php
 // initialisation
-$api    = new SENDEM\SMSApi( $username, $password );
+$api = new SENDEM\SMSApi( $username, $password );
 
 // balance checking query
 $answer = $api->balance();
