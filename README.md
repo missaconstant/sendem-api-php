@@ -15,7 +15,10 @@ This method returns an array as answer
 #### Usage
 
 ```php
+// initialization
 $api    = new SENDEM\SMSApi( $username, $password );
+
+// sending query
 $answer = $api->send([
   "senderID"  => "SENDEM",
   "numbers"   => "22501234567, ..."
@@ -34,5 +37,8 @@ This method returns an array as answer
 #### Usage
 
 ```php
+// initialisation
 $api    = new SENDEM\SMSApi( $username, $password );
+
+// balance checking query
 $answer = $api->balance();
